@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(205, 238, 243);
+}
+h1 {
+  margin-bottom: 10%;
+}
+
+.col {
+  display: block;
+  margin: 0px 5px;
+  padding: 0px 5px;
+  text-align: center;
+  font-family: "Rubik Dirt", cursive;
+  color: rgb(20, 156, 27);
+}
+.image {
+  text-align: center;
+  border-radius: 50px;
+  display: inline;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/eaa8969b0a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script:wght@700&family=Lobster&family=Pacifico&family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script:wght@700&family=EB+Garamond:wght@500&family=Lobster&family=Pacifico&family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="src/index.js" /> </script>
+  </head>
+  <body>
+      <div class="“container">
+          <div class="weather-app">
+            <form id="search-form" class="search-form">
+              <div class="row">
+                <div class="col-9">
+                  <input
+                    type="search"
+                    placeholder="Type a city.."
+                    class="form-control"
+                    id="city-input"
+                  />
+                </div>
+                <div class="col-3">
+                  <input
+                    type="submit"
+                    value="Search"
+                    class="form-control btn btn-primary"
+                  />
+                </div>
+              </div>
+    <div class="container">
+      <form>
+        <input
+          type="image"
+          name="image"
+          src="src/images/season.png"
+          width="300"
+          style="float: right;"
+        />
+      </form>
+      <h1>
+        <div id="mainCity">Kyiv</div>
+        <div class="mainTemperatura">27/20</div>
+        <div class="dayofweek" id ="time" ></div>
+      </h1>
+     
+      <div class="row">
+        <div class="col">
+          Mon
+
+          <p class="temperatura">32/21</p>
+          <p class="icons">
+            <i class="fa-solid fa-sun"></i>
+          </p>
+          <p class="precepitation">Precepitation: 0</p>
+          <p class="humidity">Humidity:77%</p>
+          <p class="wind">Wind: 12m/sec</p>
+        </div>
+        <div class="col">
+          Tue
+          <p class="temperatura">29/20</p>
+          <p class="icons">
+            <i class="fa-solid fa-sun"></i>
+          </p>
+          <p class="precepitation">Precepitation: 2</p>
+          <p class="humidity">Humidity:64%</p>
+          <p class="wind">Wind: 1.5m/sec</p>
+        </div>
+        <div class="col">
+          Wed
+          <p class="temperatura">23/19</p>
+          <p class="icons">
+            <i class="fa-solid fa-cloud-sun"></i>
+          </p>
+          <p class="precepitation">Precepitation: 22</p>
+          <p class="humidity">Humidity:51%</p>
+          <p class="wind">Wind: 2.6m/sec</p>
+        </div>
+
+        <div class="col">
+          Thue
+          <p class="temperatura">20/16</p>
+          <p class="icons">
+            <i class="fa-solid fa-cloud"></i>
+          </p>
+          <p class="precepitation">Precepitation: 14</p>
+          <p class="humidity">Humidity:44%</p>
+          <p class="wind">Wind: 2.0 m/sec</p>
+        </div>
+        <div class="col">
+          Fri
+          <p class="temperatura">20/14</p>
+          <p class="icons">
+            <i class="fa-solid fa-cloud-sun"></i>
+          </p>
+          <p class="precepitation">Precepitation: 4</p>
+          <p class="humidity">Humidity:34%</p>
+          <p class="wind">Wind: 1.7m/sec</p>
+        </div>
+        <div class="col">
+          Sat
+          <p class="temperatura">22/14</p>
+          <p class="icons">
+            <i class="fa-solid fa-cloud-sun"></i>
+          </p>
+          <p class="precepitation">Precepitation: 10</p>
+          <p class="humidity">Humidity:22%</p>
+          <p class="wind">Wind: 1.7m/sec</p>
+        </div>
+        <div class="col">
+          Sun
+          <p class="temperatura">18/14</p>
+          <p class="icons">
+            <i class="fa-solid fa-cloud-sun"></i>
+          </p>
+          <p class="precepitation">Precepitation: 31</p>
+          <p class="humidity">Humidity:26%</p>
+          <p class="wind">Wind: 1.8m/sec</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
